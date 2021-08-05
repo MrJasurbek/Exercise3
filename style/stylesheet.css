@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+
+}
+
+.chiziq {
+
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 100%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    color: rgba(0, 0, 0, 0.5);
+    width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+.box {
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    width: 300px;
+    height: 270px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.list-links {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+
+}
+
+ul {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    color: rgb(56, 56, 206);
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    border: 2px solid rgb(56, 56, 206);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.tex {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    width: 250px;
+
+}
+
+img {
+    width: auto;
+    height: 95px;
+    margin-bottom: 20px;
+
+}
