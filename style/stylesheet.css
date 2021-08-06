@@ -76,14 +76,14 @@ ul {
 .button {
     color: rgb(56, 56, 206);
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     border: 2px solid rgb(56, 56, 206);
     border-radius: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    height: 48px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .tex {
